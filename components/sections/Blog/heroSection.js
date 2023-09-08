@@ -1,6 +1,4 @@
-import { useEffect , useState } from "react";
-import { TypeAnimation } from 'react-type-animation';
-import { motion } from "framer-motion";
+
 import TextAnimation from "../../widgets/textAnimation";
 function HeroSection() {
   
@@ -10,7 +8,7 @@ function HeroSection() {
       
       <div className="hero-section-content my-auto md:text-start text-center  p-14">
       <TextAnimation>
-            <h4 className="lg:text-5xl   sm:text-4xl text-3xl  text-transparent bg-clip-text custom-gradient  font-bold	">
+            <h4 className="lg:text-5xl   sm:text-4xl text-4xl  text-transparent bg-clip-text custom-gradient  font-bold	">
          
       
             Let’s Build Something

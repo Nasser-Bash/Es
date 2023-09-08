@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="container mx-auto  p-5"> 
        <HeroSection/>
-      
+     
        <Form/>
     </div>
   )

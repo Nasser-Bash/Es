@@ -10,7 +10,7 @@ function HeroSection() {
       
       <div className="hero-section-content my-auto md:text-start text-center  p-14">
       
-            <h4 className="lg:text-6xl text-fourth  sm:text-5xl text-3xl  	">
+            <h4 className="lg:text-6xl text-fourth  sm:text-5xl text-5xl  	">
          
             <TextAnimation>
                    Artificial Intelligence

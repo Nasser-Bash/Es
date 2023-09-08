@@ -13,7 +13,7 @@ function Control() {
     const isSm =  useMediaQuery('(max-width:426px)');
     
   return (
-    <div className="control-section md:grid grid-cols-2 mt-72 ">
+    <div className="control-section md:grid grid-cols-2 md:mt-72 mt-10">
               
                 <div className="control-cards p-8 relative">
                                 <div ref={ref} className="control-card p-6 rounded-lg relative custom-gradient-background md:w-[335px] md:h-[288px] mb-5">

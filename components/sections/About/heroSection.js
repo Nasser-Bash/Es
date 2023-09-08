@@ -31,7 +31,7 @@ function HeroSection() {
     },
 
 }
-const rdsadaeavalEffect = {
+const ReavalEffect = {
   hidden: {
     width : "100%",
   
@@ -52,7 +52,7 @@ const rdsadaeavalEffect = {
       <div className=" ">
 
         <motion.h4
-          className="text-[7vw]  text-third mb-5 text-center relative mx-[20%]    "
+          className="text-[7.5vw]  text-third mb-5 text-center relative mx-[20%]    "
           variants={reavalEffect}
           initial="hidden"
           animate="visible"
@@ -61,7 +61,7 @@ const rdsadaeavalEffect = {
           METAVERSE 
           <motion.span
             className="bg-third absolute  left-0 w-full h-full "
-            variants={rdsadaeavalEffect}
+            variants={ReavalEffect}
             
             initial="hidden"
             animate="visible"
