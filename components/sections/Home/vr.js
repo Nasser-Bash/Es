@@ -4,7 +4,7 @@ function Vr() {
   return (
     <div className='vr-section md:grid grid-cols-2 mt-20 p-5'>
         <div className='relative p-5    '>
-            <img className='object-contain md:w-[400px] w-[600px] relative z-20' src='/images/image.png'/>
+            <img className='object-contain md:w-[400px] w-[600px] relative z-20' src='/images/Image.png'/>
             <Slide left>
             <span className='bg-third absolute z-10 md:w-1/2 h-3/4 w-full left-0  bottom-5 rounded-tr-[7.5rem]	'></span>
             </Slide>
