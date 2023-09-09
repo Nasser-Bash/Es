@@ -14,6 +14,6 @@ const Typewriter = ({ text }) => {
     }
   }, [currentIndex, text]);
 
-  return <span>{displayText}</span>;
+  return <span >{displayText}</span>;
 };
 export default Typewriter;

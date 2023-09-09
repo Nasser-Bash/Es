@@ -8,9 +8,9 @@ function HeroSection() {
   return (
     <div className="hero-section   sm:grid grid-cols-2 relative">
       
-      <div className="hero-section-content my-auto md:text-start text-center  p-14">
+      <div className="hero-section-content my-auto md:text-start text-center  p-10">
       
-            <h4 className="lg:text-6xl text-fourth  sm:text-5xl text-5xl  	">
+            <h4 className="lg:text-6xl text-fourth  sm:text-5xl text-4xl 	">
          
             <TextAnimation>
                    Artificial Intelligence
@@ -25,7 +25,7 @@ function HeroSection() {
        
       ]}
       wrapper="div"
-      className='text-transparent bg-clip-text custom-gradient  font-bold'
+      className='text-transparent bg-clip-text custom-gradient  font-bold pb-5'
       style={{display:'block'}}
       speed={10}
       repeat={Infinity}
